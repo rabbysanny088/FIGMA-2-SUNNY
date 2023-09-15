@@ -1,0 +1,50 @@
+.section-header{
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 70px;
+    h2{
+        font-size: 64px;
+        color: $color;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    p{
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 65px;
+    }
+}
+
+.img-title{
+    h5{
+        font-size: 22px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        color: $blackColor;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.best-image-dis{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    p{
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: $bestColor;
+        .border-best{
+            border-right: 1px solid $bestColor;
+            margin: 27px;
+        }
+    }
+
+    span{
+        font-size: 17px;
+        font-weight: 500;
+        color: $bestColor;
+    }
+    }

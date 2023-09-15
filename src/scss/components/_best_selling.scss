@@ -1,0 +1,32 @@
+.best-selling{
+    width: 100%;
+    height: auto;
+    .best-img{
+        background-color: #93B9A2;
+    }
+
+        .best-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 58px;
+            .seling-btn{
+                padding: 9px 23px;
+                border: 3px solid #224F34;
+                background: transparent;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: "Poppins", sans-serif;
+                border-radius: 3px;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    background-color: $color;
+                    color: #ffff;
+                }
+                svg{
+                    margin-left: 12px;
+                    color: #ffff;
+                }
+            }
+        }
+    }

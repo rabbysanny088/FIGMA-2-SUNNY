@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.exclusive-main{
+    width: 100%;
+    height: auto;
+    margin-top: 261px;
+    .exclusive-main-se{
+        background-color: #C2EFD4;
+        padding: 62px;
+        padding-bottom: 1px;
+        padding-top: 0px;
+        .exclusive-img{
+            position: relative;
+            svg{
+                position: absolute;
+                bottom: 81px;
+                left: -27px;
+            }
+        }
+    .exclusive-content{
+        margin-top: 103px;
+        h4{
+            font-size: 46px;
+            font-weight: bold;
+            font-family: 'Roboto Slab', serif;
+            color: $greenColor;
+        }
+        .exclusive-title{
+            font-size: 22px;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif;
+            color: $greenColor;
+        }
+        .excluvie-icon{
+            .one-box{
+                background-color: #FFFFFF;
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+                margin-bottom: 30px;
+                padding: 15px 26px;
+                margin-right: 20px;
+                border-radius: 3px;
+            }
+            p{
+
+                font-size: 32px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 900;
+                color: #224F34;
+                margin: 0;
+            
+            }
+            li{
+                list-style: none;
+                font-size: 16px;
+                color: $greenColor;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                text-transform: capitalize;
+            }
+
+        }
+        .exclusive-btn{
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            font-family: "Poppins", sans-serif;
+            border: none;
+            background-color: #224F34;
+            border-radius: 3px;
+            padding: 18px 47px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+}

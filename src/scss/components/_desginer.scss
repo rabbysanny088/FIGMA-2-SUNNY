@@ -1,0 +1,27 @@
+.desginer{
+    width: 100%;
+    height: auto;
+    .desginer-main{
+        .desginer-img{
+            background-color: #D3E2D7;
+            border-radius: 3px;
+        }
+
+        .desginer-img-title{
+            
+    text-align: center;
+    margin-top: 22px;
+            h4{
+                font-size: 30px;
+                font-weight: 700;
+                font-family: "Poppins", sans-serif;
+                color: #373737;
+            }
+            p{
+                font-size: 22px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 600;
+            }
+        }
+    }
+}

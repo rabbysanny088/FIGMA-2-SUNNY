@@ -1,8 +1,9 @@
-.feedback{
+.feedback {
     width: 100%;
     height: auto;
-    .feedback-main{
-        .feedback-content{
+
+    .feedback-main {
+        .feedback-content {
             background-color: #FFFFFF;
             box-shadow: 0px 0px 10px gray;
             box-sizing: border-box;
@@ -11,18 +12,21 @@
             padding-top: 0px;
             width: calc(100% + 5%);
             height: auto;
-            span{
+
+            span {
                 font-size: 60px;
                 font-weight: 600;
             }
-            h4{
+
+            h4 {
                 font-size: 22px;
                 font-weight: 700;
                 font-family: "Roboto Serif", serif;
                 color: #224F34;
                 margin-bottom: 17px;
             }
-            p{
+
+            p {
                 font-size: 16px;
                 font-weight: 600;
                 font-family: "Poppins", sans-serif;
@@ -30,7 +34,7 @@
             }
         }
 
-        .feedback-icon{
+        .feedback-icon {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -38,10 +42,12 @@
             padding: 0;
             margin: 0;
             margin-top: 80px;
-            span{
+
+            span {
                 margin-right: 46px;
             }
-            .new-icon{
+
+            .new-icon {
                 background-color: #FFFFFF;
                 box-shadow: 0px 0px 6px gray;
                 width: 40px;
@@ -51,11 +57,13 @@
                 border-radius: 3px;
                 cursor: pointer;
                 transition: all .3s ease-in-out;
-                &:hover{
+
+                &:hover {
                     background-color: #C2EFD4;
                 }
             }
-            .new-icon-two{
+
+            .new-icon-two {
                 background-color: #C2EFD4;
                 box-shadow: 0px 0px 10px gray;
                 width: 40px;
@@ -65,11 +73,12 @@
                 border-radius: 3px;
                 cursor: pointer;
                 transition: all .3s ease-in-out;
-                &:hover{
+
+                &:hover {
                     background-color: #ffff;
                 }
             }
         }
-        
+
     }
 }

@@ -1,14 +1,16 @@
-.section-header{
+.section-header {
     text-align: center;
     margin-top: 125px;
     margin-bottom: 70px;
-    h2{
+
+    h2 {
         font-size: 64px;
         color: $color;
         font-family: 'Roboto Slab', serif;
         font-weight: 600;
     }
-    p{
+
+    p {
         font-size: 22px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
@@ -16,8 +18,8 @@
     }
 }
 
-.img-title{
-    h5{
+.img-title {
+    h5 {
         font-size: 22px;
         font-weight: 600;
         font-family: "Poppins", sans-serif;
@@ -27,24 +29,26 @@
     }
 }
 
-.best-image-dis{
+.best-image-dis {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    p{
+
+    p {
         font-size: 22px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         color: $bestColor;
-        .border-best{
+
+        .border-best {
             border-right: 1px solid $bestColor;
             margin: 27px;
         }
     }
 
-    span{
+    span {
         font-size: 17px;
         font-weight: 500;
         color: $bestColor;
     }
-    }
+}

@@ -1,24 +1,31 @@
 import './src/scss/style.scss'
-// import javascriptLogo from './javascript.svg'
-// import viteLogo from '/vite.svg'
-// import { setupCounter } from './counter.js'
 
-// document.querySelector('#app').innerHTML = `
-//   <div>
-//     <a href="https://vitejs.dev" target="_blank">
-//       <img src="${viteLogo}" class="logo" alt="Vite logo" />
-//     </a>
-//     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-//       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-//     </a>
-//     <h1>Hello Vite!</h1>
-//     <div class="card">
-//       <button id="counter" type="button"></button>
-//     </div>
-//     <p class="read-the-docs">
-//       Click on the Vite logo to learn more
-//     </p>
-//   </div>
-// `
 
-// setupCounter(document.querySelector('#counter'))
+var swiper = new Swiper(".slide-content", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      centerSlide: "true",
+      fade: "true",
+      grabCursor: "true",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints:{
+        0:{
+          slidesPerView: 1,
+        },
+       520:{
+          slidesPerView: 2,
+        },
+        950:{
+          slidesPerView: 3,
+        },
+      },
+    });

@@ -5,14 +5,15 @@
     .feedback-main {
         .feedback-content {
             background-color: #FFFFFF;
-            box-shadow: 0px 0px 10px gray;
+            box-shadow: 0px 0px 6px gray;
             box-sizing: border-box;
             padding: 20px;
             padding-bottom: 14px;
             padding-top: 0px;
-            width: calc(100% + 5%);
+            width: 105%;
             height: auto;
             margin-bottom: 94px;
+
             span {
                 font-size: 60px;
                 font-weight: 600;
@@ -34,14 +35,15 @@
             }
 
         }
-        
-                    .swiper-button-next::after{
-                        display: none;
-                    }
-        
-                    .swiper-button-prev::after{
-                        display: none;
-                    }
+
+        .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+        .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+            display: none;
+        }
+
+        .icon-dive-slider {
+            margin-bottom: 33px;
+        }
 
         .feedback-icon {
             display: flex;
@@ -51,41 +53,34 @@
             padding: 0;
             margin: 0;
             margin-top: 80px;
-            position: relative;
-            .icon-main-s{
-                position: absolute;
-                bottom: 24px;
-            }
+
             span {
                 margin-right: 46px;
             }
 
-            .swiper-navBtn {
+            .st-avarice {
                 background-color: #FFFFFF;
                 box-shadow: 0px 0px 6px gray;
-                width: 40px;
-                height: 40px;
-                padding: 8px;
-                padding-left: 14px;
+                padding: 8px 11px;
                 border-radius: 3px;
                 cursor: pointer;
-                transition: all .3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                margin-right: 20px;
+                font-size: 21px;
 
                 &:hover {
                     background-color: #C2EFD4;
                 }
             }
 
-            .swiper-navBtns {
+            .st-generosity {
                 background-color: #C2EFD4;
-                box-shadow: 0px 0px 10px gray;
-                width: 40px;
-                height: 40px;
-                padding: 8px;
-                padding-left: 14px;
+                box-shadow: 0px 0px 6px gray;
+                padding: 8px 11px;
                 border-radius: 3px;
                 cursor: pointer;
-                transition: all .3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                font-size: 21px;
 
                 &:hover {
                     background-color: #ffff;
@@ -93,10 +88,6 @@
             }
         }
 
-    }
-    .card{
-        border: 1px solid black;
+
     }
 }
-
-
